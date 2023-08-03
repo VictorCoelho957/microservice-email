@@ -3,6 +3,7 @@ package models;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
+import enums.StatusEmail;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -40,7 +41,7 @@ public class EmailModel implements 	Serializable {
 	private  LocalDateTime sendDateEmail;
 	
 	//tipo enumerado
-	private statusEmail statusEmail;
+	private StatusEmail statusEmail;
 	
 	
 	
